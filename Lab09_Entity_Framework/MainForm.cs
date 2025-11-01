@@ -243,5 +243,31 @@ namespace Lab09_Entity_Framework
             // Tải lại danh sách
             ShowFoodsForNode(tvCategory.SelectedNode);
         }
+
+        private void btnRoles_Click(object sender, EventArgs e)
+        {
+            RoleForm form = new RoleForm();
+            form.Show();
+
+        }
+
+        private void btnAccounts_Click(object sender, EventArgs e)
+        {
+            AccountForm form = new AccountForm();
+            form.Show();
+
+        }
+
+        private void btnOrders_Click(object sender, EventArgs e)
+        {
+            BillsForm form = new BillsForm();
+            form.Show();
+        }
+
+        private void btnTables_Click(object sender, EventArgs e)
+        {
+            TableForm form = new TableForm();
+            form.Show();
+        }
     }
 }
